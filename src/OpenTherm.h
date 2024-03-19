@@ -78,9 +78,9 @@ enum class OpenThermMessageID : byte
     TflowCH2                                    = 31, // f8.8    Flow water temperature CH2 circuit(°C)
     Tdhw2                                       = 32, // f8.8    Domestic hot water temperature 2 (°C)
     Texhaust                                    = 33, // s16     Boiler exhaust temperature(°C)
-    TboilerHeatExchanger                        = 34, // f8.8    Boiler heat exchanger temperature(°C)
+    TheatExchanger                              = 34, // f8.8    Boiler heat exchanger temperature(°C)
     BoilerFanSpeedSetpointAndActual             = 35, // u8/u8     Boiler fan speed Setpoint and actual value
-    FlameCurrent                                = 36, // f8.8    Electrical current through burner flame[μA]
+    BoilerFlameCurrent                          = 36, // f8.8    Electrical current through burner flame[μA]
     TrCH2                                       = 37, // f8.8    Room temperature for 2nd CH circuit(°C)
     RelativeHumidity                            = 38, // f8.8    Actual relative humidity as a percentage
     TrOverride2                                 = 39, // f8.8    Remote Override Room Setpoint 2
